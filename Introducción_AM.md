@@ -1,5 +1,6 @@
-# INTRODUCCIÓN ANÁLISIS MULTIVARIADO
-
+# Análisis Multivariado
+***
+## Overview
 Las características físicas de nosotros como personas: la altura, el peso, la edad, el sexo, el lugar donde hemos nacido, el lugar donde vivimos actualmente, que son variables entre las personas, nos definen como individuos dentro de toda la población.
 
 Pensemos en las propiedades de una imagen: su color,su brillo,su contraste. Son características que la definen y la hacen única. Estos son dos ejemplos sencillos de lo que serían datos multivariantes; es decir, observaciones sobre las que se miden varias variables.
@@ -14,15 +15,17 @@ Sin embargo, estas herramientas no permiten directamente obtener conclusiones ge
 
 Así que los métodos van a estar agrupados en estos dos tipos de análisis: el análisis univariante, el más simple, que es cuando tenemos n observaciones (el tamaño muestral) pero de una sola variable. Por ejemplo, si nuestra variable es la altura de 100 estudiantes, la altura sería la variable aleatoria que estamos midiendo sobre esos 100 estudiantes, y 100 es el tamaño de nuestra muestra. Otra variable aleatoria podría ser el nivel de llenado de 50 botellas o por ejemplo la ciudad de nacimiento de los 1000 participantes de una encuesta.
 
-Pero cuando hablamos de datos multivariantes vamos a tener $n$ observaciones, pero más de una variable aleatoria a la vez, es decir, que sobre mis observaciones vamos a estar midiendo más de una sola variable, más de una característica. Y esas variables aleatorias van a ser características que se pueden medir simultáneamente sobre los $n$ elementos.
+Pero cuando hablamos de datos multivariantes vamos a tener **n** observaciones, pero más de una variable aleatoria a la vez, es decir, que sobre mis observaciones vamos a estar midiendo más de una sola variable, más de una característica. Y esas variables aleatorias van a ser características que se pueden medir simultáneamente sobre los **n** elementos.
 
 Por ejemplo, las características que se miden sobre las personas cuando se les hace una encuesta, que se les preguntan varias cosas a la misma persona: altura, peso, edad, lugar de residencia, etc. Todas esas son características que van a ser medidas sobre cada uno de los elementos de mi muestra.
 
-Entonces el aspecto de nuestros datos, en el caso multivariante, vamos a tener $n$ filas en nuestra matriz de datos y vamos a tener $p$ columnas, que van a ser las $p$ variables.
-Notación
+Entonces el aspecto de nuestros datos, en el caso multivariante, vamos a tener **n** filas en nuestra matriz de datos y vamos a tener **p** columnas, que van a ser las **p** variables.
 
-Esta matriz de datos se puede denotar de la siguiente manera: $$\boldsymbol{X=[x_1,x_2,...,x_p]}$$ donde $\boldsymbol{x_i}\in\mathbb{R}^n$ (es decir, $\boldsymbol{x_i}$ tiene $n$ coordenadas, que son los valores de la variable $i$ en los $n$ registros).
-Tipos de variables
+## Notación
+
+Esta matriz de datos se puede denotar de la siguiente manera: ![](https://render.githubusercontent.com/render/math?math=%5Cboldsymbol%7BX%3D%5Bx_1%2Cx_2%2C...%2Cx_p%5D%7D&mode=display) donde ![](https://render.githubusercontent.com/render/math?math=%5Cboldsymbol%7Bx_i%7D%5Cin%5Cmathbb%7BR%7D%5En&mode=inline)
+
+## Tipos de variables
 
 Vamos a ver que existen dos tipos de variables que se pueden mezclar en nuestros datos cuando tenemos varias variables. Podemos encontrarnos variables cuantitativas, que son datos numéricos, por ejemplo, cuando nos preguntan la edad, la altura, los ingresos que tenemos. O variables cualitativas, que son atributos o categorías, como por ejemplo si nos preguntan el sexo o el color de ojos o la ciudad donde hemos nacido, todas esas variables toman valores que son categorías o atributos, no son números.
 
