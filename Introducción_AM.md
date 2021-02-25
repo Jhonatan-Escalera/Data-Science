@@ -32,4 +32,4 @@ Las continuas van a ser valores reales dentro de un intervalo. Es decir, es muy 
 
 Sin embargo, las variables discretas son valores numerables o contables. Por ejemplo, el número de hermanos. Se puede tener cero hermanos, un hermano, dos hermanos, etc. Son valores que llegan hasta un límite y además son contables, numerables, es decir, nadie va a tener 1,5 hermanos.
 
-Por tanto, vamos a asumir que estamos observando $p$ variables aleatorias, cada una de ellas es una variable univariante, y se miden en un conjunto de elementos que son nuestra muestra. Luego, ese conjunto de variables aleatorias forma una variable aleatoria multivariante.
+Por tanto, vamos a asumir que estamos observando **p** variables aleatorias, cada una de ellas es una variable univariante, y se miden en un conjunto de elementos que son nuestra muestra. Luego, ese conjunto de variables aleatorias forma una variable aleatoria multivariante.
