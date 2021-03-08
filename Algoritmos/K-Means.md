@@ -128,9 +128,7 @@ Utiliza los comandos `read.csv y head`
 
 3 322.0376 5372.720
 
-
-
-
+![](https://lh3.googleusercontent.com/proxy/UzihJoSGj5pvJuJKOSnGSG1jClOR2lFEl3_EhHlcyUPlEVpknrnblASxzwhlG1s-rd3JY4fSs0eZAAm2JxptBF1lqdd8xA8EOqrlzoWyzaWhg-JzAznC1ss7UEcE9Pk_tJv_5yuBecqdjM-csf9eA7FGDRoEOtDLrWalC8vQwSy8lA)
 
 
 ## Conclusión
